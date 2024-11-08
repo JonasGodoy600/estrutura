@@ -2,7 +2,7 @@
 
 void separa_filas(t_lista_dupla *l, t_lista_dupla *lp, t_lista_dupla *li){
       
-      
+    while(!lista_vazia(l)){
     if (lista_vazia(l)) {
         printf ("fila vazia!");
     }
@@ -12,6 +12,7 @@ void separa_filas(t_lista_dupla *l, t_lista_dupla *lp, t_lista_dupla *li){
         enfileira(i, li);
         else 
         enfileira(i,lp);
+    }
     }
     }
 
